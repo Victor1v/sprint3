@@ -1,0 +1,112 @@
+/* Definição das cores principais */
+:root {
+	--cor-fundo: #00272b;
+	--cor-texto: #00c59d;
+	--cor-branca: #fffff8;
+	--cor-verde: #08e904;
+	--cor-azul: #5e9bd4;
+	--cor-laranja: #f7a54c;
+	--cor-vermelho: #ed1c24;
+}
+
+/* Definição da fonte */
+body {
+	font-family: "Roboto", sans-serif;
+	font-size: 16px;
+	line-height: 1.6;
+	color: var(--cor-texto);
+}
+
+/* Estilo do cabeçalho */
+header {
+	background-color: var(--cor-fundo);
+	color: var(--cor-branca);
+	padding: 2rem;
+	text-align: center;
+}
+
+h1 {
+	font-size: 2.5rem;
+	margin: 0;
+}
+
+/* Definir cor de fundo e bordas da tabela */
+table {
+	margin: 0 auto;
+	border-collapse: collapse;
+	width: 100%;
+	max-width: 800px;
+	background-color: #fffff8;
+	border: 2px solid #00c59d;
+}
+
+/* Definir estilo das células */
+th,
+td {
+    border: 1px solid #00C59D;
+	padding: 1.5rem;
+	text-align: center;
+	font-size: 1.25rem;
+	font-weight: bold;
+}
+
+/* Adicionar efeito de hover nas células */
+th:hover,
+td:hover {
+	background-color: #00c59e46;
+	cursor: pointer;
+	transition: background-color 0.3s ease-in-out;
+}
+
+/* Estilo das reputações */
+.reputacao {
+	font-weight: bold;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.ótimo {
+	color: var(--cor-verde);
+}
+
+.bom {
+	color: var(--cor-azul);
+}
+
+.regular {
+	color: var(--cor-laranja);
+}
+
+.ruim {
+	color: var(--cor-vermelho);
+}
+
+@media (max-width: 768px) {
+    table {
+      font-size: 14px;
+    }
+  
+    thead {
+      display: table-header-group;
+    }
+  
+    th {
+      display: none;
+    }
+  
+    td {
+      display: block;
+      text-align: center;
+    }
+  
+    .reputacao-otima,
+    .reputacao-boa,
+    .reputacao-regular,
+    .reputacao-ruim {
+      display: inline-block;
+      padding: 2px 5px;
+      border-radius: 4px;
+      margin-bottom: 5px;
+    }
+  }

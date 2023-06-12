@@ -1,0 +1,71 @@
+{
+    "empresas": [
+      {
+        "nome": "Pichau Informática",
+        "reputacao": "BOM"
+      },
+      {
+        "nome": "KaBuM!",
+        "reputacao": "BOM"
+      },
+      {
+        "nome": "TeraByte",
+        "reputacao": "BOM"
+      },
+      {
+        "nome": "Magazine Luiza",
+        "reputacao": "ÓTIMO"
+      },
+      {
+        "nome": "Amazon",
+        "reputacao": "ÓTIMO"
+      }
+      ,
+      {
+        "nome": "Mania Virtual",
+        "reputacao": "RUIM"
+      }
+      ,
+      {
+        "nome": "Casas Bahia",
+        "reputacao": "BOM"
+      }
+      ,
+      {
+        "nome": "JBL",
+        "reputacao": "ÓTIMO"
+      }
+      ,
+      {
+        "nome": "Uai Comércio Digital",
+        "reputacao": "REGULAR"
+      }
+      ,
+      {
+        "nome": "Razor Computadores",
+        "reputacao": "BOM"
+      }
+      ,
+      {
+        "nome": "Anker Brasil",
+        "reputacao": "ÓTIMO"
+      }
+      ,
+      {
+        "nome": "HQ Screen",
+        "reputacao": "REGULAR"  
+      }
+      ,
+      {
+        "nome": "AliExpress",
+        "reputacao": "RUIM"
+      }
+      ,
+      {
+        "nome": "C6 Bank",
+        "reputacao": "REGULAR"
+      }
+
+    ]
+  }
+  
